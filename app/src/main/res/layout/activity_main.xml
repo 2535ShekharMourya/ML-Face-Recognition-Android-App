@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/faceinstagramcleanup"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="600dp">
+
+
+   <TextView
+       android:id="@+id/person1"
+       android:layout_margin="2dp"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:textSize="18sp"
+       android:text="" />
+
+   <TextView
+       android:id="@+id/person2"
+       android:layout_width="match_parent"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_height="wrap_content"
+       android:text="" />
+   <TextView
+       android:id="@+id/person3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"/>
+   <TextView
+       android:id="@+id/person4"
+       android:layout_margin="2dp"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:textSize="18sp"
+       android:text="" />
+
+   <TextView
+       android:id="@+id/person5"
+       android:layout_width="match_parent"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_height="wrap_content"
+       android:text="" />
+   <TextView
+       android:id="@+id/person6"
+       android:layout_width="match_parent"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_height="wrap_content"
+       android:text="" />
+   <TextView
+       android:id="@+id/person7"
+       android:layout_width="match_parent"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_height="wrap_content"
+       android:text="" />
+   <TextView
+       android:id="@+id/person8"
+       android:layout_width="match_parent"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_height="wrap_content"
+       android:text="" />
+   <TextView
+       android:id="@+id/person9"
+       android:layout_width="match_parent"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_height="wrap_content"
+       android:text="" />
+   <TextView
+       android:id="@+id/person10"
+       android:layout_width="match_parent"
+       android:layout_margin="2dp"
+       android:textAllCaps="true"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_height="wrap_content"
+       android:text="" />
+   <Button
+       android:id="@+id/btncamra"
+       android:background="@drawable/backg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Face Detection"
+       android:layout_gravity="center"
+       android:layout_marginTop="380dp"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       android:textAllCaps="true">
+
+   </Button>
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
